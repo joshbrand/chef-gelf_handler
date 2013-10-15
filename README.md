@@ -4,7 +4,7 @@ Description
 [![Build Status](https://secure.travis-ci.org/realityforge/chef-gelf_handler.png?branch=master)](http://travis-ci.org/realityforge/chef-gelf_handler)
 
 A cookbook that a handler that sends chef run results to a GELF server such as
-Logstash or Graylog. If you have the [ohai-system_pacakges](https://github.com/finnlabs/ohai-system_packages/)
+Logstash or Graylog. If you have the [ohai-system_packages](https://github.com/finnlabs/ohai-system_packages/)
 plugin installed, it will also send package statistics.
 
 Requirements
