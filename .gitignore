@@ -6,5 +6,21 @@
 # Ignore the generated json file
 /metadata.json
 
+# Berkshelf
+.vagrant
+Berksfile.lock
+
 # Ignore the patch file generated when integrating changes
 /patch.*
+
+# Tempfiles
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+/cookbooks
+Gemfile.lock
+.bundle/*
+
